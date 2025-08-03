@@ -20,7 +20,7 @@ const About = () => {
 
     <div className="about-skills">
      <div className="skill-1">
-      <h1 style={{color: 'blue',padding: '20px',}}>Creative Thinker</h1> 
+      <h1 style={{color: 'blue',padding: '20px',}}>Creative Thinking</h1> 
       <p style={{padding: '10px'}}>Like finding simple and smart way to solve problem.</p>
 </div>
 
@@ -30,7 +30,7 @@ const About = () => {
 </div>
 
   <div className="skill-3">
-    <h1 style={{color: 'blue',padding: '20px',}}>Teamwork</h1> 
+    <h1 style={{color: 'blue',padding: '20px',}}>Team-work</h1> 
     <p style={{padding: '10px'}}>Enjoy working with others and sharing ideas.</p>
   </div>
 

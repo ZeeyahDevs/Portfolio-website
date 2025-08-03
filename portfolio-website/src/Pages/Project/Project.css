@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Project-done{
+    display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 20px;
+   padding: 40px;
+   justify-items: center;
+   background-color: #75d5f7;
+   min-height: 100vh;
+}
+.Project-done{
+    text-align: center;
+}
+.Project-done img{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+ 
+
+
+
