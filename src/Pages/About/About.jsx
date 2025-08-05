@@ -3,7 +3,7 @@ import Navbar from "../../Components/Navbar/Navbar"
 import './About.css';
 const About = () => {
   return (
-
+ 
     <div>
       <Navbar /> 
       <div className="about-title">

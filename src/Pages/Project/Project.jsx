@@ -25,12 +25,12 @@ const Project = () => {
   </div>
     <div className='Project-done'>
       <div className='img-1'>
-      <img src = {Image} style ={{height: '200px', width:'250px'}}/>
+      <img src = {Image} className='img-1-1'/>
       </div>
       <div className='img-2'>
-      <img src = {Image2} style ={{height: '300px', width:'450px'}}/>
+      <img src = {Image2} className='img-2-2' />
       </div>
-      <div className='img-3'>
+      <div className='img-3'> 
       <img src = {Image3}/>
       </div>
       <div className='img-4'>
@@ -42,9 +42,6 @@ const Project = () => {
       <div className='img-6'>
       <img src = {Image6}/>
       </div>
-
-
-
 </div>
     </div>
   )

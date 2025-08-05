@@ -1,26 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.Project-done{
+
+.Project-done {
     display: grid;
-   grid-template-columns: auto auto auto;
-   gap: 20px;
-   padding: 40px;
-   justify-items: center;
-   background-color: #75d5f7;
-   min-height: 100vh;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 40px;
+    justify-items: center;
+    background-color: #75d5f7;
+    min-height: 100vh;
 }
-.Project-done{
+
+.Project-done {
     text-align: center;
 }
-.Project-done img{
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+.Project-done img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
- 
+
+/* Move these BELOW the general rule */
+.img-1-1 {
+  height: 200px;
+  width: 250px;
+}
+
+.img-2-2 {
+  height: 300px;
+  width: 450px;
+}
+
+
+@media screen and (max-width: 900px) {
+    .Project-done {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+
+    .Project-done img {
+        width: 100px;
+        height: 150px;
+
+    }
+     .img-2-2 {
+        display: none !important;
+
+    }
 
 
 
+
+
+}

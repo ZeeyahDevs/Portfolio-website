@@ -3,7 +3,7 @@
     padding: 0;
 }
 .about-section{
-    display: flex;
+    display: flex; 
     flex-direction: row;
     margin: 70px;
 }
@@ -28,4 +28,18 @@
     border: 1px solid black;
     border-radius: 5px;
 
+}
+
+@media screen and (max-width: 900px) {
+    .about-section {
+        flex-direction: column;
+    }
+    .about-text {
+        width: 100%;
+        margin-right: 0;
+    }
+    .about-skills {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
 }

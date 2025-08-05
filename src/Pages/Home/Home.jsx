@@ -3,7 +3,7 @@ import Image from '../../assets/image-home.png'
 import './Home.css';
 
  
-const Home = () => {
+const Home = () => { 
   return (
     <div>
       <Navbar />
